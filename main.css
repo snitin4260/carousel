@@ -1,0 +1,52 @@
+body,
+html {
+  height: 100vh;
+  margin: 0;
+}
+
+:root {
+  --lato-font: "Roboto", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.carousel {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: var(--lato-font);
+  line-height: 1.6;
+  background-color: red;
+  height: 300px;
+  background: url("./img/beach-1.jpg") center center/ cover no-repeat;
+}
+
+.carousel_button {
+  position: absolute;
+  width: 47px;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  top: calc(50% - 40px);
+  cursor: pointer;
+}
+
+.carousel_button-left {
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.carousel_button-right {
+  right: 0;
+  transform: rotate(180deg);
+}
