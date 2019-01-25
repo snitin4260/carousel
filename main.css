@@ -23,7 +23,7 @@ html {
   line-height: 1.6;
   background-color: red;
   height: 300px;
-  background: url("./img/beach-1.jpg") center center/ cover no-repeat;
+  background: url("./img/1.jpeg") center center/ cover no-repeat;
 }
 
 .carousel_button {

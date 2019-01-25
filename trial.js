@@ -3,12 +3,12 @@ let carouselLeftButton = document.querySelector(".carousel_button-left");
 let carouselRightButton = document.querySelector(".carousel_button-right");
 
 let carouselImages = [
-  "./img/beach-1.jpg",
-  "./img/beach-2.jpg",
-  "./img/beach-3.jpg",
-  "./img/couple.jpg",
-  "./img/sea.jpg",
-  "./img/building.jpg"
+  "./img/1.jpeg",
+  "./img/2.jpeg",
+  "./img/3.jpeg",
+  "./img/4.jpeg",
+  "./img/5.jpeg",
+  "./img/6.jpeg"
 ];
 
 let carouselData = {
@@ -22,10 +22,6 @@ function changeImage() {
   carousel.style.background = `url(${
     carouselData.listOfImages[currentImageIndex]
   }) center center/ cover no-repeat`;
-}
-
-function hideButton(el) {
-  el.classList.add("hidden");
 }
 
 function checkWhetherTodisplayRightButton() {
